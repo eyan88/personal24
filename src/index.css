@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+  * {
+    border: 1px solid red;
+  }
+
+  ::-moz-selection {
+    background: #D7D7D1
+  }
+
+  ::-webkit-selection {
+    background: #D7D7D1
+  }
+
+  ::selection {
+    background: #D7D7D1
+  }
+
+  @font-face {
+    font-family: "Sentient-Variable";
+    src: url("./assets/fonts/Sentient-Variable.ttf") format("truetype");
+    font-weight: 100 900;
+    font-display: swap;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Satoshi-Regular";
+    src: url("./assets/fonts/Satoshi-Regular.otf") format("truetype");
+    font-weight: 200 700;
+    font-display: swap;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Satoshi-Bold";
+    src: url("./assets/fonts/Satoshi-Bold.otf") format("truetype");
+    font-weight: 200 700;
+    font-display: swap;
+    font-style: normal;
+  }
+
+}
