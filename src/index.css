@@ -3,21 +3,20 @@
 @tailwind utilities;
 
 @layer base {
-
-  * {
+  /* * {
     border: 1px solid red;
-  }
+  } */
 
   ::-moz-selection {
-    background: #D7D7D1
+    background: #d7d7d1;
   }
 
   ::-webkit-selection {
-    background: #D7D7D1
+    background: #d7d7d1;
   }
 
   ::selection {
-    background: #D7D7D1
+    background: #d7d7d1;
   }
 
   @font-face {
@@ -27,7 +26,7 @@
     font-display: swap;
     font-style: normal;
   }
-  
+
   @font-face {
     font-family: "Satoshi-Regular";
     src: url("./assets/fonts/Satoshi-Regular.otf") format("truetype");
@@ -43,5 +42,4 @@
     font-display: swap;
     font-style: normal;
   }
-
 }
