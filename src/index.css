@@ -3,9 +3,13 @@
 @tailwind utilities;
 
 @layer base {
-  /* * {
+  * {
     border: 1px solid red;
-  } */
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
 
   ::-moz-selection {
     background: #d7d7d1;

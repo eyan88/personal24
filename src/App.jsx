@@ -6,13 +6,15 @@ import Contact from "./components/Contact";
 
 function App() {
   return (
-    <div className="bg-primary-bg">
-      <NavBar />
-      <Hero />
-      <About />
-      <Projects />
-      <Contact />
-    </div>
+    <>
+      <div className="bg-primary-bg">
+        <NavBar />
+        <Hero />
+        <About />
+        <Projects />
+        <Contact />
+      </div>
+    </>
   );
 }
 
