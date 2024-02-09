@@ -5,7 +5,7 @@ export default function NavBar() {
         href="#hero"
         className="text-tertiary-100 font-sentient font-normal text-2xl md:text-body-1 pt-2"
       >
-        Yan Weipeng
+        YWP
       </a>
       <nav className="font-satoshi-regular space-x-7 pt-1 hidden md:inline-block md:text-body-1">
         <a href="#about" className="relative group">

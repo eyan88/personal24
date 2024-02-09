@@ -4,8 +4,8 @@ export default function Contact() {
 
 
     return (
-        <section id="contact" className="relative h-[50vh] font-satoshi-bold text-[36px] md:text-[6rem]">
-            <Heading title="Contact"/>
+        <section id="contact" className="relative">
+            <Heading title="contact"/>
         </section> 
     )
 }

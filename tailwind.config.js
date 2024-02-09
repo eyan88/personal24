@@ -5,8 +5,8 @@ export default {
     extend: {},
     fontSize: {
       "display": ['clamp(2.25rem,9.5vw,8rem)'],
-      "heading-1": "6rem",
-      "body-1": "32px",
+      "heading-2": ['clamp(3rem,7vw,10rem)'],
+      "body-1": ['clamp(1rem,2vw,3rem)'],
       "body-2": "1.5rem",
     },
     fontFamily: {
